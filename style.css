@@ -6,7 +6,7 @@
 }
 body{
    height: 100vh; 
-   background-color: #8a6565;
+   background-color: #ed691d;
 
 }
 li{
@@ -87,7 +87,7 @@ header{
     top: 60px;
     height: 0;
     width: 150px;
-    background-color: rgb(17, 4, 4);
+    background-color: rgb(211, 125, 5);
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
@@ -137,31 +137,55 @@ header{
     background-image: cover;
     background-position: center;
     background-size: cover;
-    height: 40rem;
+    height: 35rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .div2{
-    background-color: #f90303;
+    /* background-color: #f90303; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 50rem;
-    height: 8rem;
+    height: 15rem;
 }
 .h1{
-    background-color: aqua;
+    /* background-color: aqua; */
+    color: #ff0000;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20%;
+    font-size: 1.rem;
+    width: 20rem;
 }
 .p1{
-    background-color: rgb(10, 127, 199);
+    color: rgb(217, 255, 0);
+    width: 16rem;
+    /* background-color: rgb(10, 127, 199); */
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20%;
+    font-size: 1.2rem;
+    margin-top: 45px;
+}
+.button{
+
+    background-color: orange;
+    color: #fff;
+    padding-inline: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
 }

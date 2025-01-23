@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Food</title> 
+</head>
+<body>
+    <header>
+    <div class="navbar"> 
+        <div class="logo"><a href="#">food</a></div>
+        <ul class="links">
+            <li><a href="Kitchen">Kitchen</a></li>
+            <li><a href="Taste">Taste</a></li>
+            <li><a href="Recipes">Recipes</a></li>
+            <li><a href="Blog">Blog</a></li>
+            <li><a href="Contact">Contact</a></li>
+        </ul>
+        <a href="#" class="action_btn">+92-324-2912732</a>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <div class="dropdown_menu ">
+        <li><a href="Kitchen">Kitchen</a></li>
+        <li><a href="Taste">Taste</a></li>
+        <li><a href="Recipes">Recipes</a></li>
+        <li><a href="Blog">Blog</a></li>
+        <li><a href="Contact">Contact</a></li>
+        <li><a href="#" class="action_btn">+92-324-2912732</a></li>
+    </div>
+    </header>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcone = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle('open')
+    } 
+    </script>
+</body>
+</html>

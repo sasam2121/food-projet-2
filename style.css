@@ -5,16 +5,14 @@
     font-family: 'open sans', sans-serif ;
 }
 body{
-   height: 100vh; 
-   background-color: #ed691d;
-
+   height: 100vh;
 }
 li{
     list-style: none;
 }
 a{
     text-decoration: none;
-    color: #fff;
+    color: grey;
     font-size: 1rem;
 }
 
@@ -25,6 +23,7 @@ a:hover{
 header{
     position: relative;
     padding: 0 2rem;
+
 }
 
 .navbar{
@@ -48,7 +47,7 @@ header{
 }
 
 .navbar .toggle_btn{
-    color:#fff ;
+    color:#0c0c0c ;
     font-style: 1.5rem;
     cursor: pointer;
     display: none;
@@ -132,7 +131,7 @@ header{
 }
 
 .div1{
-    background-image: url(WhatsApp\ Image\ 2025-01-23\ à\ 17.43.23_68ef59d6.jpg);
+    background-image: url(./images/WhatsApp\ Image\ 2025-01-23\ à\ 17.43.23_68ef59d6.jpg);
     background-repeat: no-repeat;
     background-image: cover;
     background-position: center;
@@ -148,7 +147,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50rem;
+    width: 25rem;
     height: 15rem;
 }
 .h1{
@@ -173,7 +172,6 @@ header{
     margin-top: 45px;
 }
 .button{
-
     background-color: orange;
     color: #fff;
     padding-inline: 0.5rem 1rem;
@@ -188,4 +186,88 @@ header{
     display: flex;
     align-items: center;
     margin-top: 25px;
+}
+
+.image1{
+    height: 5rem;
+}
+.div3-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23rem;
+    gap: 1rem;
+}
+
+.div3 :hover{
+    background-color: orange;
+    color: #fff;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    height: 100%;
+    width: 100%;
+    gap: 2rem;
+    padding: 0.5rem;
+}
+.h1-1{
+    display: flex;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.button2{
+    background-color: orange;
+    color: #fff;
+    padding-inline: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.p2{
+    color: grey;
+}
+.image2{
+    height: 13rem;
+    width: 20rem;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.div5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    height: 100%;
+    width: 100%;
+    gap: 2rem;
+    padding: 0.5rem;
 }

@@ -182,9 +182,11 @@ header{
     font-weight: bold;
     cursor: pointer;
     transition: scale 0.2 ease;
-    height: 23px;
+    height: 2rem;
+    width: 8rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 25px;
 }
 
@@ -240,8 +242,10 @@ header{
     cursor: pointer;
     transition: scale 0.2 ease;
     height: 2rem;
+    width: 8rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .p2{
     color: grey;
@@ -270,4 +274,63 @@ header{
     width: 100%;
     gap: 2rem;
     padding: 0.5rem;
+}
+/* swiper */
+
+    swiper-container {
+      width: 70%;
+      height: 80%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 1.1rem;
+      background: #ffe9cb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 12rem;
+      padding: 1rem;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .section4{
+        margin-top: 1rem;
+        display: flex;
+        background-color: orange;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+.div6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.h11{
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+.food{
+    font-size: 4rem;
+}
+@media (max-width: 768px) {
+    .div6 {
+        flex: 1 1 calc(50% - 1rem);
+    }
+}
+@media(max-width: 480px) {
+    .div6 {
+        flex: 1 1 100%;
+    }
 }

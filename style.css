@@ -306,10 +306,10 @@ header{
         background-color: orange;
         width: 100%;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-wrap: wrap;
     }
-
+    
 .div6{
     display: flex;
     justify-content: center;
@@ -324,11 +324,11 @@ header{
 .food{
     font-size: 4rem;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .div6 {
         flex: 1 1 calc(50% - 1rem);
     }
-}
+} */
 @media(max-width: 480px) {
     .div6 {
         flex: 1 1 100%;
